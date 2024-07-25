@@ -8,7 +8,29 @@ export default {
     backgroundColor: theme => ({
       ...theme('colors'),
     }),
-    extend: {},
+    extend: {
+      fontFamily: {
+        fraunces: ['Fraunces', 'serif'],
+        manrope: ['Manrope', 'sans-serif'],
+      },
+      colors: {
+        purple: {
+          dark: '#24053E',
+          davy: '#584D62'
+        },
+        eucalyptus: '#44FFA1',
+        white: {
+          ghost: '#FCF8FF',
+          pure: '#FFFFFF'
+        }
+      },
+      screens: {
+        xs: '460px',
+      },
+      backgroundImage: {
+        'oval-pattern': 'radial-gradient(ellipse at top center, #24053E 70%, #FCF8FF 0%)',
+      }
+    },
   },
   plugins: [],
 }

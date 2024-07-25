@@ -1,7 +1,5 @@
-import React from 'react'
+import Home from "./home";
 
-export default function Landing() {
-  return (
-    <div>Landing</div>
-  )
+export const Pages = {
+    Home
 }
