@@ -7,7 +7,7 @@ type Props = {
 
 export default function Section(props: Props) {
     return (
-        <section className={`lg:min-h-screen ${props.className}`}>
+        <section className={`${props.className}`}>
             {props.children}
         </section>
     )

@@ -2,7 +2,7 @@ import { Container, Section, Wrapper } from '../../../components'
 
 export default function Landing() {
   return (
-    <Section className='bg-purple-dark flex flex-col flex-nowrap justify-between gap-[3rem] lg:gap-0'>
+    <Section className='lg:min-h-screen bg-purple-dark flex flex-col flex-nowrap justify-between gap-[3rem] lg:gap-0'>
 
       {/* Top */}
       <Wrapper className='flex flex-row flex-nowrap pt-[32px] px-[7.5%] justify-between items-center'>
@@ -35,7 +35,7 @@ export default function Landing() {
       </Container>
 
       {/* Bottom */}
-      <Wrapper className='bg-white-ghost flex flex-row flex-nowrap justify-center min-h-[15rem] relative before:absolute before:w-[130%] before:h-[50%] before:bg-oval-pattern border-t-purple-dark'>
+      <Wrapper className='bg-white-ghost flex flex-row flex-nowrap justify-center min-h-[15rem] relative before:absolute before:w-[130%] before:h-[50%] before:bg-purple-oval-pattern border-t-purple-dark'>
         <img className='absolute w-[90%] top-0 md:top-[-3rem] transition duration-300 max-w-[650px] max-h-[472px] z-[1]' src="/images/challenge/image-hero.webp" alt="phone image" />
       </Wrapper>
 

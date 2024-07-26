@@ -28,7 +28,8 @@ export default {
         xs: '460px',
       },
       backgroundImage: {
-        'oval-pattern': 'radial-gradient(ellipse at top center, #24053E 70%, #FCF8FF 0%)',
+        'purple-oval-pattern': 'radial-gradient(ellipse at top center, #24053E 70%, #FCF8FF 0%)',
+        'ghost-oval-pattern': 'radial-gradient(ellipse at top center, #FCF8FF 70%, #FFFFFF 0%)',
       }
     },
   },
