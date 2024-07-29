@@ -24,7 +24,6 @@ const insightsData: InsightsData = {
       description: 'Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.'
     }
   ]
-
 }
 
 export default function Insight() {
@@ -40,7 +39,7 @@ export default function Insight() {
               key={index}
             >
 
-              <Wrapper className='mr-[36px] max-w-[6rem] w-[4rem] md:w-[6rem] lg:w-[auto] lg:p-[5%] aspect-square flex flex-row flex-nowrap justify-center items-center md:flex-row  border rounded-[50vw] border-purple-davy'>
+              <Wrapper className='md:mr-[36px] lg:mr-0 max-w-[6rem] w-[4rem] md:w-[6rem] lg:w-[auto] lg:p-[5%] aspect-square flex flex-row flex-nowrap justify-center items-center md:flex-row  border rounded-[50vw] border-purple-davy'>
                 <p className='font-fraunces font-semibold text-[28px] text-purple-dark'>{index + 1}</p>
               </Wrapper>
 
@@ -64,7 +63,7 @@ export default function Insight() {
         {content()}
       </Container>
       <Wrapper className='w-full bg-white-pure flex flex-row flex-nowrap justify-center min-h-[15rem] relative before:absolute before:w-[130%] before:h-[50%] before:bg-ghost-oval-pattern border-t-purple-dark'>
-        Hello World
+        {/*  */}
       </Wrapper>
     </Section>
   )
