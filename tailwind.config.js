@@ -30,8 +30,8 @@ export default {
       backgroundImage: {
         'purple-oval-pattern': 'radial-gradient(ellipse at top center, #24053E 70%, #FCF8FF 0%)',
         'ghost-oval-pattern': 'radial-gradient(ellipse at top center, #FCF8FF 70%, #FFFFFF 0%)',
-        'twirrle-image': 'url(./images/challenge/bg-pattern-3.svg)',
-        'founder-image': 'url(./images/challenge/image-founder.webp)',
+        'twirrle-image': 'url(/images/challenge/bg-pattern-3.svg)',
+        'founder-image': 'url(/images/challenge/image-founder.webp)',
       }
     },
   },
