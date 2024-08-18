@@ -39,7 +39,7 @@ export default function Insight() {
               key={index}
             >
 
-              <Wrapper className='md:mr-[36px] lg:mr-0 max-w-[6rem] w-[4rem] md:w-[6rem] lg:w-[auto] lg:p-[5%] aspect-square flex flex-row flex-nowrap justify-center items-center md:flex-row  border rounded-[50vw] border-purple-davy'>
+              <Wrapper className='relative md:mr-[36px] lg:mr-0 min-w-[4rem] max-w-[4rem] w-[4rem] lg:p-[2rem] aspect-square flex flex-row flex-nowrap justify-center items-center md:flex-row  border rounded-full border-purple-davy'>
                 <p className='font-fraunces font-semibold text-[28px] text-purple-dark'>{index + 1}</p>
               </Wrapper>
 
